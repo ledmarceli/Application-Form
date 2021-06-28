@@ -1,0 +1,54 @@
+html {
+	background-color: 	darkslategray;
+	display: flex;
+	flex-wrap: wrap;
+	color: LightGray;
+}
+
+left-side {
+	position: absolute;
+	left: 0%;
+	top: 5%;
+	margin-left: 25%
+}
+
+right-side {
+	position: absolute;
+	right:0%;
+	top: 5%;
+	margin-right: 25%;
+}
+
+bottom {
+	position: absolute;
+	left: 0%;
+
+	top: 60%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+input {
+	width: 295px;
+	padding: 5px;
+}
+
+select {
+	width: 310px;
+	padding: 5px;
+}
+
+form {
+	font-size: 120%;
+}
+
+button {
+background-color: green;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  height: 40px;
+  width: 35%;
+  font-size: 120%;
+}
